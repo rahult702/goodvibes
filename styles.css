@@ -162,3 +162,18 @@ section{
     background: #44444438;
     color: #4444449a;
 }
+
+@media (max-width: 425px){
+    .main-heading{
+        letter-spacing: 1px;
+        font-size: 2.5rem;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .second-heading{
+        font-size: 1.25rem;
+    }
+}
