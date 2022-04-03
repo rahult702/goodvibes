@@ -17,13 +17,14 @@
         <form action="#">
           <div class="normal">
             <label for="name">Name</label>
-            <input type="text" placeholder="Enter your name" required/><br>
+            <input id="name" type="text" placeholder="Enter your name" required/><br>
             <label for="email">Email</label>
-            <input type="email" placeholder="Enter your email address" required/><br>
+            <input id="email" type="email" placeholder="Enter your email address" required/><br>
             <label for="number field"
               >On a scale of 1-10, how good was it?</label
             >
             <input
+                   id="number field
               type="number"
               placeholder="Enter a number between 1 and 10"
               min="1"
@@ -31,13 +32,13 @@
             />
           </div>
           <div class="option">
-              <label for="#">Whare did it happen?</label>
-              <select name="#" id="#" required>
-                  <option value="#">At home</option>
-                  <option value="#">On my commute</option>
-                  <option value="#">At work</option>
-                  <option value="#">On the street</option>
-                  <option value="#">Other</option>
+              <label for="select">Whare did it happen?</label>
+              <select name="what did it happen?" id="select" required>
+                  <option value="at home">At home</option>
+                  <option value="on my commute">On my commute</option>
+                  <option value="at work">At work</option>
+                  <option value="on the street">On the street</option>
+                  <option value="other">Other</option>
               </select>
           </div>
           <div class="radio">
